@@ -5,11 +5,12 @@
 //
 // For the full license text consult the 'LICENSE' file from the repository.
 //
-package at.joestr.javacommon;
+package at.joestr.javacommon.configuration;
 
 /**
  *
  * @author joestr
  */
-public class Javacommon {
+public class ConfigurationManager {
+
 }
