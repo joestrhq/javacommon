@@ -1,8 +1,8 @@
-#javacommon
+# javacommon
 
 Provides shared functionalities for Java software development.
 
-##Usage
+## Usage
 
 To use this artifact you need to a following repository:
 
@@ -13,22 +13,32 @@ To use this artifact you need to a following repository:
 </repository>
 ```
 
-###Module 'configuration'
+### Module 'configuration'
 
 ```
 <dependency>
   <groupId>at.joestr.javacommon</groupId>
   <artifactId>configuration</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.2.0-SNAPSHOT</version>
 </dependency>
 ```
 
-###Module 'spigot-utils'
+### Module 'spigot-utils'
 
 ```
 <dependency>
   <groupId>at.joestr.javacommon</groupId>
   <artifactId>spigotutils</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.2.0-SNAPSHOT</version>
+</dependency>
+```
+
+### Module 'updater'
+
+```
+<dependency>
+  <groupId>at.joestr.javacommon</groupId>
+  <artifactId>spigotutils</artifactId>
+  <version>0.2.0-SNAPSHOT</version>
 </dependency>
 ```
