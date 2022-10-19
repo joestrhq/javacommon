@@ -15,6 +15,7 @@ import java.util.HashSet;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
+import java.util.function.BiFunction;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -133,5 +134,14 @@ public class LanguageConfiguration {
       }
     }
     return null;
+  }
+
+  /**
+   * Get a resolver for a provided path and a Locale.
+   *
+   * @return {@link BiFunction} A resolver
+   */
+  public BiFunction<String, Locale, String> getResolver() {
+    return (String t, Locale u) -> instance.getString(t, u);
   }
 }
