@@ -38,7 +38,7 @@ To use this artifact you need to a following repository:
 ```
 <dependency>
   <groupId>at.joestr.javacommon</groupId>
-  <artifactId>spigotutils</artifactId>
+  <artifactId>updater</artifactId>
   <version>0.2.0-SNAPSHOT</version>
 </dependency>
 ```
