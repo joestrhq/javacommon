@@ -12,8 +12,10 @@ import java.util.List;
 import java.util.Locale;
 import java.util.function.BiFunction;
 import java.util.function.Function;
+import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.chat.ComponentSerializer;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 
 /**
  * @author Joel
@@ -68,6 +70,20 @@ public class MessageHelper {
    */
   public void send() {
     receiver.spigot().sendMessage(ComponentSerializer.parse(this.build(false)));
+  }
+
+  /**
+   * Sends the receiver (which is a player) a message to the action bar
+   *
+   * @throws Exception If the <code>receiver</code> is not of type
+   * <code>Player</code>
+   */
+  public void sendActionBar() throws Exception {
+    if (!(receiver instanceof Player)) {
+      throw new Exception("'receiver' is not of type 'Player'! Cannot send a message to the action bar!");
+    }
+
+    ((Player) receiver).spigot().sendMessage(ChatMessageType.ACTION_BAR, ComponentSerializer.parse(this.build(false)));
   }
 
   /**
