@@ -98,7 +98,7 @@ public class MessageHelper {
   /**
    * Gets the string in an unmodified state.
    *
-   * @return String the unmodified string
+   * @return String The unmodified string.
    */
   public String rawString() {
     return this.build(true);
