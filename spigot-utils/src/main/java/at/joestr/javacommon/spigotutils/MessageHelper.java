@@ -119,7 +119,7 @@ public class MessageHelper {
       }
 
       for (Function<String, String> modifier : this.modifiers) {
-        modifier.apply(message);
+        message = modifier.apply(message);
       }
     }
 
