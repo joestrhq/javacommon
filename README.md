@@ -19,7 +19,17 @@ To use this artifact you need to a following repository:
 <dependency>
   <groupId>at.joestr.javacommon</groupId>
   <artifactId>configuration</artifactId>
-  <version>0.3.1-SNAPSHOT</version>
+  <version>0.3.2-SNAPSHOT</version>
+</dependency>
+```
+
+### Module 'folia-utils'
+
+```
+<dependency>
+  <groupId>at.joestr.javacommon</groupId>
+  <artifactId>foliautils</artifactId>
+  <version>0.3.2-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -29,7 +39,7 @@ To use this artifact you need to a following repository:
 <dependency>
   <groupId>at.joestr.javacommon</groupId>
   <artifactId>spigotutils</artifactId>
-  <version>0.3.1-SNAPSHOT</version>
+  <version>0.3.2-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -39,6 +49,6 @@ To use this artifact you need to a following repository:
 <dependency>
   <groupId>at.joestr.javacommon</groupId>
   <artifactId>updater</artifactId>
-  <version>0.3.1-SNAPSHOT</version>
+  <version>0.3.2-SNAPSHOT</version>
 </dependency>
 ```
